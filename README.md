@@ -1,5 +1,7 @@
 # Sanitize.css
 
+> Minimal CSS normalization library
+
 This is a rebase of the
 [Normalize.css](https://github.com/necolas/normalize.css).
 
