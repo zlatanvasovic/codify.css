@@ -7,6 +7,11 @@ This is a rebase of the
 
 Licensed under the MIT License.
 
+## Download
+
+* [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
+* **Bower:** `bower install sanitize.css`
+
 ## Core changes
 
 * Improved comments
