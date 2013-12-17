@@ -91,7 +91,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* Address style set to `bolder` in Firefox, Safari 5, and Chrome. */
+/* Address weight set to `bolder` in Firefox, Safari 5, and Chrome. */
 b,
 strong {
   font-weight: bold;
