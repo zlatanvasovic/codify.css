@@ -269,10 +269,13 @@ html input[disabled] {
 }
 
 /* Remove excess padding in IE 9+.
+   Improve positioning.
    Address box sizing set to `content-box` in IE 9+. */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
+  margin: 4px 0 0;
+  line-height: normal;
   box-sizing: border-box;
 }
 
