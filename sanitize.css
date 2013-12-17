@@ -279,12 +279,12 @@ input[type="radio"] {
   box-sizing: border-box;
 }
 
-/* 1. Address `box-sizing` set to `border-box` in Safari 5 and Chrome.
-   2. Address `appearance` set to `searchfield` in Safari 5 and Chrome. */
+/* Address `box-sizing` set to `border-box` in Safari 5 and Chrome.
+   Address `appearance` set to `searchfield` in Safari 5 and Chrome. */
 input[type="search"] {
-  -moz-box-sizing: border-box; /* 1 */
-       box-sizing: border-box; /* 1 */
-  -webkit-appearance: textfield; /* 2 */
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-appearance: textfield;
 }
 
 /* Remove inner padding and search cancel button in Safari 5 and Chrome
