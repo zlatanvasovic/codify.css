@@ -179,13 +179,13 @@ video {
   vertical-align: middle;
 }
 
-/* 1. Scale the height according to the width.
-   2. Set a maximum width relative to the parent.
-   3. Remove border when inside `a` element in IE 9. */
+/* Scale the height according to the width.
+   Set a maximum width relative to the parent.
+   Remove border when inside `a` element in IE 9. */
 img {
-  height: auto; /* 1 */
-  max-width: 100%; /* 2 */
-  border: 0; /* 3 */
+  height: auto;
+  max-width: 100%;
+  border: 0;
 }
 
 /* Correct overflow displayed oddly in IE 9. */
@@ -301,9 +301,9 @@ input::-moz-focus-inner {
   border: 0;
 }
 
-/* 1. Remove default padding in Chrome.
-   2. Remove default vertical scrollbar in IE 9.
-   3. Improve readability and alignment in all browsers. */
+/* Remove default padding in Chrome.
+   Remove default vertical scrollbar in IE 9.
+   Improve readability and alignment in all browsers. */
 textarea {
   padding: 0; /* 1 */
   overflow: auto; /* 2 */
