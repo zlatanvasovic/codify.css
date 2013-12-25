@@ -12,6 +12,9 @@ Licensed under the MIT License.
 * [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
 * **Bower:** `bower install sanitize.css`
 
+Sanitize.css is also available on
+[cdnjs](http://cdnjs.com/libraries/sanitize.css/).
+
 ## Core changes
 
 * Improved comments
