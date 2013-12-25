@@ -305,9 +305,9 @@ input::-moz-focus-inner {
    Remove default vertical scrollbar in IE 9.
    Improve readability and alignment in all browsers. */
 textarea {
-  padding: 0; /* 1 */
-  overflow: auto; /* 2 */
-  vertical-align: top; /* 3 */
+  padding: 0;
+  overflow: auto;
+  vertical-align: top;
 }
 
 /*
