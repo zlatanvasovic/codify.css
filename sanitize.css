@@ -57,15 +57,6 @@ body {
   margin: 0;
 }
 
-/* Remove shadow from selected text in Firefox, Safari and Chrome. */
-::-moz-selection {
-  text-shadow: none;
-}
-
-::selection {
-  text-shadow: none;
-}
-
 /*
  * Links
  */

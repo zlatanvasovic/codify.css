@@ -20,7 +20,6 @@ Sanitize.css is also available on
 * Improved comments
 * Consistent and modern element styles
 * Improved display definitions
-* Text selection styles
 * Improved vertical align of embedded content
 * Responsive images
 
