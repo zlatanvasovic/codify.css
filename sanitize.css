@@ -222,6 +222,11 @@ textarea {
   color: inherit;
 }
 
+/* Address inconsistent opacity in Mozilla Firefox 19+. */
+input::-moz-placeholder{
+  opacity: 1;
+}
+
 /* Address `overflow` set to `hidden` in IE 9/10. */
 button {
   overflow: visible;
