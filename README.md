@@ -5,8 +5,6 @@
 This is a rebase of the
 [Normalize.css](https://github.com/necolas/normalize.css).
 
-Licensed under the MIT License.
-
 ## Download
 
 * [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
@@ -31,3 +29,7 @@ Sanitize.css is also available on
 * **Firefox**
 * **Opera**
 * **Internet Explorer 9+**
+
+## License
+
+MIT &copy; [Zlatan Vasović](https://github.com/ZDroid)
