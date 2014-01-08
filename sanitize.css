@@ -310,8 +310,10 @@ textarea {
  * Tables
  */
 
-/* Remove most spacing between table cells. */
+/* Avoid layout breaking by setting `max-width`.
+   Remove most spacing between table cells. */
 table {
+  max-width: 100%;
   border-collapse: collapse;
 }
 
