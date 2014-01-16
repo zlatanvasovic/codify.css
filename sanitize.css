@@ -213,14 +213,14 @@ legend {
 }
 
 /* Address margins set differently in Firefox, Safari 5, and Chrome.
-   Correct font styles not being inherited in all browsers. */
+   Correct font styles not being inherited in all browsers.
+   - Known issue: `select` will not inherit color in Chrome and Safari on OS X. */
 button,
 input,
 select,
 textarea {
   margin: 0;
-  font-family: inherit;
-  font-size: 100%;
+  font: inherit;
   color: inherit;
 }
 
