@@ -25,7 +25,7 @@ video {
   display: inline-block;
 }
 
-/* Prevent modern browsers from displaying `audio` without controls.
+/* Prevent browsers from displaying `audio` without controls.
    Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
   display: none;
