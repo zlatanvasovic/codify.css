@@ -190,7 +190,7 @@ svg:not(:root) {
 
 /* Address margin not present in IE 9 and Safari 5. */
 figure {
-  margin: 0;
+  margin: 1em 40px;
 }
 
 /*
