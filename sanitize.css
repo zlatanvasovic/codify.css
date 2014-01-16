@@ -217,6 +217,7 @@ legend {
    - Known issue: `select` will not inherit color in Chrome and Safari on OS X. */
 button,
 input,
+optgroup,
 select,
 textarea {
   margin: 0;
