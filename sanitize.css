@@ -197,8 +197,10 @@ figure {
  * Forms
  */
 
-/* Remove inconsistent padding, margin and border in all browsers. */
+/* Address width being affected by wide descendants in Chrome and Firefox.
+   Remove inconsistent padding, margin and border in all browsers. */
 fieldset {
+  min-width: 0;
   padding: 0;
   margin: 0;
   border: 0;
