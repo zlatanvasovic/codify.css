@@ -16,8 +16,8 @@ Sanitize.css is also available on
 ## Core changes
 
 * Improved comments
-* Consistent and modern element styles
 * Improved display definitions
+* Consistent and modern element styles
 * Improved vertical align of embedded content
 * Responsive images
 
