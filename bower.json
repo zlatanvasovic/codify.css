@@ -7,8 +7,9 @@
   "main": "sanitize.css",
   "keywords": [
     "css",
-    "sanitize.css",
     "normalize",
+    "sanitize",
+    "sanitize.css"
   ],
   "license": "MIT"
 }
