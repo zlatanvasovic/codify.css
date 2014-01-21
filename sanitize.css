@@ -267,9 +267,9 @@ html input[disabled] {
   cursor: default;
 }
 
-/* Remove excess padding in IE 9+.
+/* Remove excess padding in IE.
    Improve positioning.
-   Address box sizing set to `content-box` in IE 9+. */
+   Address box sizing set to `content-box` in IE. */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
