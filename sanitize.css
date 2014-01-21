@@ -320,7 +320,7 @@ table {
   border-collapse: collapse;
 }
 
-/* Reset align of text. */
+/* Reset default `text-align`. */
 th {
   text-align: left;
 }
