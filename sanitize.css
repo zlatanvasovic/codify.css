@@ -241,8 +241,8 @@ input {
   line-height: normal;
 }
 
-/* Address inconsistent `text-transform` inheritance for `button` and `select`.
-   Other form control elements do not inherit `text-transform` values. */
+/* Address inconsistent `text-transform` inheritance for `button` and
+   `select`. */
 button,
 select {
   text-transform: none;
