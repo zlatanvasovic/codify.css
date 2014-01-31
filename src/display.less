@@ -1,0 +1,38 @@
+//
+// Display definitions
+//
+
+// Correct `block` display not defined in IE 9.
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+legend,
+nav,
+section {
+  display: block;
+}
+
+// Correct `inline-block` display not defined in IE 9.
+audio,
+canvas,
+label,
+video {
+  display: inline-block;
+}
+
+// Prevent browsers from displaying `audio` without controls.
+// Remove excess height in iOS 5 devices.
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+// Address `[hidden]` styling not present in IE 9.
+// Hide the `template` element in IE, Safari, and Firefox < 22.
+[hidden],
+template {
+  display: none;
+}
