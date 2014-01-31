@@ -1,4 +1,4 @@
-# Sanitize.css
+# Sanitize.css [![Build status](https://travis-ci.org/ZDroid/sanitize.css.png?branch=master)](https://travis-ci.org/ZDroid/sanitize.css) [![devDependency status](https://david-dm.org/ZDroid/sanitize.css/dev-status.png?theme=shields.io)](https://david-dm.org/ZDroid/sanitize.css#info=devDependencies)
 
 > Minimal CSS normalization library
 
@@ -29,6 +29,35 @@ Sanitize.css is also available on
 * **Firefox**
 * **Opera**
 * **Internet Explorer 9+**
+
+## Compile
+
+Wuzzle uses [Grunt](http://gruntjs.com) to compile Less code.
+
+### Dependencies
+
+You need [node.js](http://nodejs.org/download/) to use Grunt.
+
+From the command line:
+
+```bash
+$ npm install -g grunt-cli
+$ npm install # from the root Sanitize.css directory
+```
+
+When completed, you'll be able to run the various Grunt commands provided from
+the command line.
+
+### Commands
+
+#### Default: `grunt [--modules="module..."]`
+
+Compiles Less files. If `--modules` option is used, it will just compile
+specified modules.
+
+#### Watch: `grunt watch`
+
+Watches Less files and automatically compiling them when they're changed.
 
 ## License
 
