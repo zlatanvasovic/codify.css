@@ -15,6 +15,7 @@ Sanitize.css is also available on
 
 ## Core changes
 
+* Modules
 * Improved comments
 * Improved display definitions
 * Consistent and modern element styles
