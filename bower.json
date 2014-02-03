@@ -11,5 +11,11 @@
     "sanitize",
     "sanitize.css"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "Gruntfile.js",
+    "package.json",
+    "src"
+  ]
 }
