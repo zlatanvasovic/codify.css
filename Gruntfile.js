@@ -69,7 +69,7 @@ module.exports = function (grunt) {
         options: {
           position: 'top',
           banner: '/*!\n' +
-                  ' * Sanitize <%= pkg.version %> (http://git.io/sanitize)\n' +
+                  ' * Sanitize.css <%= pkg.version %> (http://git.io/sanitize)\n' +
                   ' * Licensed under the <%= pkg.license %> License.\n' +
                   ' */\n'
         },
