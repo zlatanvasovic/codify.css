@@ -11,7 +11,11 @@ Based on the
 * **Bower:** `bower install sanitize.css`
 
 Sanitize.css is also available on
-[cdnjs](http://cdnjs.com/libraries/sanitize.css/).
+[cdnjs](http://cdnjs.com/libraries/sanitize.css/) and
+[jsDelivr](http://www.jsdelivr.com/#!sanitize.css) (latest at: 
+`//cdn.jsdelivr.net/sanitize.css/latest/sanitize.min.css`).
+
+
 
 ## Core changes
 
