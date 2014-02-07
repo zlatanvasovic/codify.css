@@ -53,12 +53,25 @@ the command line.
 
 #### Default: `grunt [--modules="module..."]`
 
-Compiles Less files. If `--modules` option is used, it will just compile
-specified modules.
+Compiles Less files.
 
-#### Watch: `grunt watch`
+`--modules` is space-separated list of modules. If `--modules` option is used,
+it will just compile specified modules.
 
-Watches Less files and automatically compiling them when they're changed.
+#### Watch: `grunt watch [--modules="module..."]`
+
+Watches Less files and compiles them when they're changed.
+
+## Modules
+
+Modules are invidual files within `src/`.
+
+* [**base**](https://github.com/ZDroid/sanitize.css/blob/master/src/base.less#files)
+* [**display**](https://github.com/ZDroid/sanitize.css/blob/master/src/display.less#files)
+* [**text**](https://github.com/ZDroid/sanitize.css/blob/master/src/text.less#files)
+* [**embed**](https://github.com/ZDroid/sanitize.css/blob/master/src/embed.less#files)
+* [**forms**](https://github.com/ZDroid/sanitize.css/blob/master/src/forms.less#files)
+* [**tables**](https://github.com/ZDroid/sanitize.css/blob/master/src/tables.less#files)
 
 ## License
 
