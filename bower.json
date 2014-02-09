@@ -3,9 +3,9 @@
   "author": "Zlatan Vasović",
   "description": "Minimal CSS normalization library",
   "keywords": [
-    "css",
+    "sanitize",
     "normalize",
-    "sanitize"
+    "css"
   ],
   "version": "2.0.0",
   "license": "MIT",
