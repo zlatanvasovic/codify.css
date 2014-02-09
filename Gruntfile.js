@@ -14,18 +14,16 @@ module.exports = function (grunt) {
     // Meta data
     pkg: grunt.file.readJSON('package.json'),
 
+    // Paths
     sanitize: {
       less: (function () {
         var modules = (grunt.option('modules') || 'base display text embed forms tables').split(' ');
-        var moduleFiles = (function () {
-          var results = [];
-          var i;
-          for (i in modules) {
-            results.push('src/' + modules[i] + '.less');
-          }
-          return results;
-        })();
-        return moduleFiles;
+        var files = [];
+        var i;
+        for (i in modules) {
+          files.push('src/' + modules[i] + '.less');
+        }
+        return files;
       })(),
       css: 'dist/sanitize.css',
       cssMin: 'dist/sanitize.min.css'
