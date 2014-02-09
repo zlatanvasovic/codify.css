@@ -7,8 +7,8 @@ Based on the
 
 ## Download
 
-* [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
-* **Bower:** `bower install sanitize.css`
+- [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
+- **Bower:** `bower install sanitize.css`
 
 Sanitize.css is also available on
 [cdnjs](http://cdnjs.com/libraries/sanitize.css/) and
@@ -17,21 +17,21 @@ Sanitize.css is also available on
 
 ## Core changes
 
-* Modules
-* Improved comments
-* Improved display definitions
-* Consistent and modern element styles
-* Improved vertical align of embedded content
-* Responsive images
+- Modules
+- Improved comments
+- Improved display definitions
+- Consistent and modern element styles
+- Improved vertical align of embedded content
+- Responsive images
 
 ## Browser support
 
-* **Chrome**
-* **Chromium**
-* **Safari** for OS X and iOS
-* **Firefox**
-* **Opera**
-* **Internet Explorer 9+**
+- **Chrome**
+- **Chromium**
+- **Safari** for OS X and iOS
+- **Firefox**
+- **Opera**
+- **Internet Explorer 9+**
 
 ## Compile
 
@@ -68,12 +68,12 @@ Watches Less files and compiles them when they're changed.
 
 Modules are invidual files within `src/`.
 
-* [**base**](https://github.com/ZDroid/sanitize.css/blob/master/src/base.less#files)
-* [**display**](https://github.com/ZDroid/sanitize.css/blob/master/src/display.less#files)
-* [**text**](https://github.com/ZDroid/sanitize.css/blob/master/src/text.less#files)
-* [**embed**](https://github.com/ZDroid/sanitize.css/blob/master/src/embed.less#files)
-* [**forms**](https://github.com/ZDroid/sanitize.css/blob/master/src/forms.less#files)
-* [**tables**](https://github.com/ZDroid/sanitize.css/blob/master/src/tables.less#files)
+- [**base**](https://github.com/ZDroid/sanitize.css/blob/master/src/base.less#files)
+- [**display**](https://github.com/ZDroid/sanitize.css/blob/master/src/display.less#files)
+- [**text**](https://github.com/ZDroid/sanitize.css/blob/master/src/text.less#files)
+- [**embed**](https://github.com/ZDroid/sanitize.css/blob/master/src/embed.less#files)
+- [**forms**](https://github.com/ZDroid/sanitize.css/blob/master/src/forms.less#files)
+- [**tables**](https://github.com/ZDroid/sanitize.css/blob/master/src/tables.less#files)
 
 ## License
 
