@@ -26,11 +26,10 @@ Sanitize.css is also available on
 
 ## Browser support
 
-- **Chrome**
-- **Chromium**
-- **Safari** for OS X and iOS
+- **Chrome** and **Chromium**
 - **Firefox**
 - **Opera**
+- **Safari** for OS X and iOS
 - **Internet Explorer 9+**
 
 ## Compile
