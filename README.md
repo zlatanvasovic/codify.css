@@ -10,10 +10,11 @@ Based on the
 - [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
 - **Bower:** `bower install sanitize.css`
 
-Sanitize.css is also available on
-[cdnjs](http://cdnjs.com/libraries/sanitize.css/) and
-[jsDelivr](http://www.jsdelivr.com/#!sanitize.css) (latest at
-`//cdn.jsdelivr.net/sanitize.css/latest/sanitize.min.css`).
+### CDN
+
+- [cdnjs](http://cdnjs.com/libraries/sanitize.css/)
+- [jsDelivr](http://www.jsdelivr.com/#!sanitize.css) (latest at
+`//cdn.jsdelivr.net/sanitize.css/latest/sanitize.min.css`)
 
 ## Core changes
 
