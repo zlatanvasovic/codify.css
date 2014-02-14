@@ -7,7 +7,7 @@ Based on the
 
 ## Download
 
-- [**Fine-packed ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
+- [**ZIP**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
 - **Bower:** `bower install sanitize.css`
 
 ### CDN
