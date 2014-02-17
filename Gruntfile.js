@@ -65,7 +65,6 @@ module.exports = function (grunt) {
     usebanner: {
       dist: {
         options: {
-          position: 'top',
           banner: '/*!\n' +
                   ' * Sanitize.css <%= pkg.version %> (http://git.io/sanitize)\n' +
                   ' * Licensed under the <%= pkg.license %> License.\n' +
