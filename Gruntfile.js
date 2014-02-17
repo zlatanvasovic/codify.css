@@ -29,6 +29,12 @@ module.exports = function (grunt) {
       cssMin: 'dist/sanitize.min.css'
     },
 
+    // Banner
+    banner: '/*!\n' +
+            ' * Sanitize.css <%= pkg.version %> (http://git.io/sanitize)\n' +
+            ' * Licensed under the <%= pkg.license %> License.\n' +
+            ' */\n',
+
     // Tasks
     clean: {
       dist: 'dist'
@@ -65,10 +71,7 @@ module.exports = function (grunt) {
     usebanner: {
       dist: {
         options: {
-          banner: '/*!\n' +
-                  ' * Sanitize.css <%= pkg.version %> (http://git.io/sanitize)\n' +
-                  ' * Licensed under the <%= pkg.license %> License.\n' +
-                  ' */\n'
+          banner: '<%= banner %>'
         },
         files: {
           src: [
