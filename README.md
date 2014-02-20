@@ -2,8 +2,7 @@
 
 > Minimal CSS normalization library
 
-Based on the
-[Normalize.css](https://github.com/necolas/normalize.css).
+Based on the [Normalize.css](https://github.com/necolas/normalize.css).
 
 ## Download
 
