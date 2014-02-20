@@ -6,7 +6,7 @@
   "color-shorthand": true,
   "combinator-space": true,
   "element-case": "lower",
-  "eof-newline": false,
+  "eof-newline": true,
   "leading-zero": false,
   "quotes": "double",
   "remove-empty-rulesets": true,
