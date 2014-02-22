@@ -42,18 +42,16 @@ module.exports = function (grunt) {
 
     less: {
       dist: {
-        files: {
-          '<%= sanitize.css %>': '<%= sanitize.less %>'
-        }
+        src: '<%= sanitize.less %>',
+        dest: '<%= sanitize.css %>'
       },
       distMin: {
         options: {
           cleancss: true,
           report: 'min'
         },
-        files: {
-          '<%= sanitize.cssMin %>': '<%= sanitize.css %>'
-        }
+        src: '<%= sanitize.css %>',
+        dest: '<%= sanitize.cssMin %>'
       }
     },
 
@@ -62,9 +60,8 @@ module.exports = function (grunt) {
         options: {
           config: '.csscomb.json'
         },
-        files: {
-          '<%= sanitize.css %>': '<%= sanitize.css %>'
-        }
+        src: '<%= sanitize.css %>',
+        dest: '<%= sanitize.css %>'
       }
     },
 
@@ -73,12 +70,7 @@ module.exports = function (grunt) {
         options: {
           banner: '<%= banner %>'
         },
-        files: {
-          src: [
-            '<%= sanitize.css %>',
-            '<%= sanitize.cssMin %>'
-          ]
-        }
+        src: 'dist/*.css'
       }
     },
 
