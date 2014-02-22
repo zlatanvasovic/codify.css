@@ -27,15 +27,15 @@ Based on the [Normalize.css](https://github.com/necolas/normalize.css).
 
 ## Browser support
 
-- **Chrome** and **Chromium**
-- **Firefox**
-- **Opera**
-- **Safari** for OS X and iOS
+- **Chrome** and **Chromium** (latest)
+- **Firefox** (latest)
+- **Opera 12+**
+- **Safari 6+** for OS X and iOS
 - **Internet Explorer 9+**
 
 ## Compile
 
-Wuzzle uses [Grunt](http://gruntjs.com) to compile Less code.
+Sanitize.css uses [Grunt](http://gruntjs.com) to compile Less code.
 
 ### Dependencies
 
@@ -43,10 +43,9 @@ You need [node.js](http://nodejs.org/download/) to use Grunt.
 
 From the command line:
 
-```bash
-$ npm install -g grunt-cli
-$ npm install # from the root Sanitize.css directory
-```
+1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
+2. Run `npm install` from the root Sanitize.css directory to install
+   dependencies.
 
 When completed, you'll be able to run the various Grunt commands provided from
 the command line.
@@ -57,8 +56,8 @@ the command line.
 
 Compiles Less files.
 
-`--modules` is space-separated list of modules. If `--modules` option is used,
-it will just compile specified modules.
+`--modules` is a space-separated list of modules. If `--modules` option is
+used, Grunt will just compile specified modules.
 
 #### Watch: `grunt watch [--modules="module..."]`
 
@@ -66,14 +65,14 @@ Watches Less files and compiles them when they're changed.
 
 ## Modules
 
-Modules are invidual files within `src/`.
+Modules are invidual files within `src/`, without a `.less` extension.
 
-- [**base**](https://github.com/ZDroid/sanitize.css/blob/master/src/base.less#files)
-- [**display**](https://github.com/ZDroid/sanitize.css/blob/master/src/display.less#files)
-- [**text**](https://github.com/ZDroid/sanitize.css/blob/master/src/text.less#files)
-- [**embed**](https://github.com/ZDroid/sanitize.css/blob/master/src/embed.less#files)
-- [**forms**](https://github.com/ZDroid/sanitize.css/blob/master/src/forms.less#files)
-- [**tables**](https://github.com/ZDroid/sanitize.css/blob/master/src/tables.less#files)
+- **base**
+- **display**
+- **text**
+- **embed**
+- **forms**
+- **tables**
 
 ## License
 
