@@ -61,7 +61,7 @@ used, Grunt will just compile specified modules.
 
 #### Watch: `grunt watch [--modules="module..."]`
 
-Watches Less files and compiles them when they're changed.
+Watches Less files and recompiles them when they're changed.
 
 ## Modules
 
