@@ -19,7 +19,6 @@ Based on the [Normalize.css](https://github.com/necolas/normalize.css).
 
 - Modules
 - CSSComb support
-- Improved comments
 - Improved display definitions
 - Consistent and modern element styles
 - Improved vertical align of embedded content
