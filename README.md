@@ -56,7 +56,7 @@ the command line.
 Compiles Less files.
 
 `--modules` is a space-separated list of modules. If `--modules` option is
-used, Grunt will just compile specified modules.
+used, Grunt will only compile specified modules.
 
 #### Watch: `grunt watch [--modules="module..."]`
 
