@@ -13,6 +13,6 @@
     "grunt-contrib-less": "0.9.x",
     "grunt-contrib-watch": "0.5.x",
     "grunt-csscomb": "2.0.x",
-    "load-grunt-tasks": "0.3.x"
+    "load-grunt-tasks": "0.4.x"
   }
 }
