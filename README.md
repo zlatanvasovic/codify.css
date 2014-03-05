@@ -26,10 +26,10 @@ Based on the [Normalize.css](https://github.com/necolas/normalize.css).
 
 ## Browser support
 
-- **Chrome** and **Chromium** (latest)
+- **Chrome** (latest)
 - **Firefox** (latest)
 - **Opera 12+**
-- **Safari 6+** for OS X and iOS
+- **Safari 6+**
 - **Internet Explorer 9+**
 
 ## Compile

@@ -16,19 +16,19 @@ video {
 
 // Scale the height according to the width.
 // Set a maximum width relative to the parent.
-// Remove border when inside `a` element in IE 9.
+// Remove border when inside `a` element in IE 9-10.
 img {
   height: auto;
   max-width: 100%;
   border: 0;
 }
 
-// Correct overflow displayed oddly in IE 9.
+// Correct overflow not hidden in IE.
 svg:not(:root) {
   overflow: hidden;
 }
 
-// Address margin not present in IE 9 and Safari 5.
+// Address margin not present in IE 9 and Safari.
 figure {
   margin: 1em 40px;
 }

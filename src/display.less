@@ -2,7 +2,10 @@
 // Display definitions
 //
 
-// Correct `block` display not defined in IE.
+// Correct `block` display not defined for any HTML5 element in IE 9.
+// Correct `block` display not defined for `details` or `summary` in IE 10+ and
+// Firefox.
+// Correct `block` display not defined for `main` in IE 11.
 article,
 aside,
 figcaption,
@@ -31,8 +34,8 @@ audio:not([controls]) {
   height: 0;
 }
 
-// Address `[hidden]` styling not present in IE 9.
-// Hide the `template` element in IE, Safari, and Firefox < 22.
+// Address `[hidden]` styling not present in IE 9/10.
+// Hide the `template` element in IE, Safari and Firefox < 22.
 [hidden],
 template {
   display: none;
