@@ -47,8 +47,7 @@ module.exports = function (grunt) {
       },
       distMin: {
         options: {
-          cleancss: true,
-          report: 'min'
+          cleancss: true
         },
         src: '<%= sanitize.css %>',
         dest: '<%= sanitize.cssMin %>'
