@@ -17,10 +17,12 @@ Based on the [Normalize.css](https://github.com/necolas/normalize.css).
 
 ## Core changes
 
+(compared to Normalize.css)
+
 - Modules
 - CSSComb support
 - Improved display definitions
-- Consistent and modern element styles
+- Consistent element styles
 - Improved vertical align of embedded content
 - Responsive images
 
