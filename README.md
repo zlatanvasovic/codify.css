@@ -1,4 +1,6 @@
-# Sanitize.css [![Build status](https://travis-ci.org/ZDroid/sanitize.css.png?branch=master)](https://travis-ci.org/ZDroid/sanitize.css) [![devDependency status](https://david-dm.org/ZDroid/sanitize.css/dev-status.png?theme=shields.io)](https://david-dm.org/ZDroid/sanitize.css#info=devDependencies)
+# Sanitize.css
+
+[![Build status](https://travis-ci.org/ZDroid/sanitize.css.png?branch=master)](https://travis-ci.org/ZDroid/sanitize.css) [![devDependency status](https://david-dm.org/ZDroid/sanitize.css/dev-status.png?theme=shields.io)](https://david-dm.org/ZDroid/sanitize.css#info=devDependencies)
 
 > Minimal CSS normalization library
 
