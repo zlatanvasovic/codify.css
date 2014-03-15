@@ -65,7 +65,7 @@ module.exports = function (grunt) {
     },
 
     usebanner: {
-      dist: {
+      css: {
         options: {
           banner: '<%= banner %>'
         },
@@ -83,6 +83,7 @@ module.exports = function (grunt) {
 
   // Load plugins
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
+  require('time-grunt')(grunt);
 
   // Default task
   grunt.registerTask('default', ['clean', 'less', 'csscomb', 'usebanner']);
