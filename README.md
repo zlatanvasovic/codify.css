@@ -47,7 +47,7 @@ You need [node.js](http://nodejs.org/download/) to use Grunt.
 
 From the command line:
 
-1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
+1. Install `grunt-cli` globally with `[sudo] npm install -g grunt-cli`.
 2. Run `npm install` from the root Sanitize.css directory to install
    dependencies.
 
