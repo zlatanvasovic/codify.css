@@ -19,8 +19,7 @@ module.exports = function (grunt) {
       less: (function () {
         var modules = (grunt.option('modules') || 'base display text embed forms tables').split(' ');
         var files = [];
-        var i;
-        for (i in modules) {
+        for (var i = 0; i < modules.length; i++) {
           files.push('src/' + modules[i] + '.less');
         }
         return files;
