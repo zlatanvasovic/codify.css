@@ -8,12 +8,12 @@
   },
   "devDependencies": {
     "grunt": "0.4.x",
-    "grunt-banner": "0.2.x",
-    "grunt-contrib-clean": "0.5.x",
-    "grunt-contrib-less": "0.11.x",
+    "grunt-banner": "0.4.x",
+    "grunt-contrib-clean": "0.6.x",
+    "grunt-contrib-less": "1.0.x",
     "grunt-contrib-watch": "0.6.x",
-    "grunt-csscomb": "2.0.x",
-    "load-grunt-tasks": "0.5.x",
-    "time-grunt": "0.3.x"
+    "grunt-csscomb": "3.0.x",
+    "load-grunt-tasks": "3.2.x",
+    "time-grunt": "1.2.x"
   }
 }

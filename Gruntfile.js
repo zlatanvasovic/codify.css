@@ -46,7 +46,7 @@ module.exports = function (grunt) {
       },
       distMin: {
         options: {
-          cleancss: true
+          compress: true
         },
         src: '<%= sanitize.css %>',
         dest: '<%= sanitize.cssMin %>'
