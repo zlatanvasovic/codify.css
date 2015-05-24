@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/ZDroid/sanitize.css.svg?branch=master)](https://travis-ci.org/ZDroid/sanitize.css)
 [![devDependency Status](https://david-dm.org/ZDroid/sanitize.css/dev-status.svg)](https://david-dm.org/ZDroid/sanitize.css#info=devDependencies)
 
-> Minimal CSS normalization library
+> A minimal CSS normalization library
 
 Based on the [Normalize.css](https://github.com/necolas/normalize.css).
 
