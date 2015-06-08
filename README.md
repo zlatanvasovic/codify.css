@@ -54,6 +54,17 @@ From the command line:
 When completed, you'll be able to run the various Grunt commands provided from
 the command line.
 
+## Modules
+
+Modules are invidual files within `src/`, without a `.less` extension.
+
+- **base**
+- **display**
+- **text**
+- **embed**
+- **forms**
+- **tables**
+
 ### Commands
 
 #### Default: `grunt [--modules="module..."]`
@@ -66,17 +77,6 @@ used, Grunt will only compile specified modules.
 #### Watch: `grunt watch [--modules="module..."]`
 
 Watches Less files and recompiles them when they're changed.
-
-## Modules
-
-Modules are invidual files within `src/`, without a `.less` extension.
-
-- **base**
-- **display**
-- **text**
-- **embed**
-- **forms**
-- **tables**
 
 ## License
 
