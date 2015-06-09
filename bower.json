@@ -1,7 +1,7 @@
 {
   "name": "sanitize.css",
   "author": "Zlatan Vasović",
-  "description": "Minimal CSS normalization library",
+  "description": "A minimal CSS normalization library",
   "keywords": [
     "sanitize",
     "normalize",
