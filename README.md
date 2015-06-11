@@ -5,7 +5,7 @@
 
 > A minimal CSS normalization library
 
-Based on the [Normalize.css](https://github.com/necolas/normalize.css).
+Based on [Normalize.css](https://github.com/necolas/normalize.css).
 
 ## Download
 
@@ -56,7 +56,7 @@ the command line.
 
 ## Modules
 
-Modules are invidual files within `src/`, without a `.less` extension.
+Modules are individual files within `src/`, without a `.less` extension.
 
 - **base**
 - **display**
