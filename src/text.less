@@ -2,21 +2,25 @@
 // Text
 //
 
-// Remove the gray background color from links in IE 10+.
+// Remove the gray background color from links in IE 10.
+// Remove gaps in links underline in iOS 8+ and Safari 8+.
 a {
   background: transparent;
+  -webkit-text-decoration-skip: objects;
 }
 
 // Address differences between Firefox and other browsers.
+// Show overflow in IE and Edge.
 hr {
   height: 0;
   box-sizing: content-box;
+  overflow: visible;
 }
 
 // Address variable `h1` font-size and margin within `section` and `article`
 // contexts in Chrome, Firefox and Safari.
 h1 {
-  margin: 0.7em 0;
+  margin: 0.67em 0;
   font-size: 2em;
 }
 
@@ -28,7 +32,7 @@ strong {
 
 // Address inconsistent and variable `font-size`.
 small {
-  font-size: 85%;
+  font-size: 80%;
 }
 
 // Prevent `sub` and `sup` affecting `line-height`.
@@ -45,23 +49,13 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.5em;
 }
 
-// Address styling not present in Safari.
-dfn {
-  font-style: italic;
-}
-
-// Address styling not present in Chrome, Safari and IE 9.
+// Address styling not present in Chrome, Edge, IE, Opera and Safari.
 abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-// Address styling not present in IE 9.
-mark {
-  color: #000;
-  background: #ff0;
+  text-decoration: underline;
+  text-decoration: underline dotted;
 }
 
 // Remove redundant quotes.
@@ -70,12 +64,13 @@ blockquote:after {
   content: "";
 }
 
-// Correct `font-family` set oddly in Chrome and Safari.
+// Correct odd font family inheritance and `em` sizing in all browsers.
 code,
 kbd,
 pre,
 samp {
-  font-family: monospace;
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
 // Improve overflow and readability of preformatted text.

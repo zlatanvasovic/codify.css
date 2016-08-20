@@ -1,5 +1,5 @@
 /*!
- * Sanitize.css gruntfile (http://git.io/sanitize)
+ * Codify.css gruntfile (http://git.io/sanitize)
  * Licensed under the MIT License.
  */
 
@@ -15,7 +15,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     // Paths
-    sanitize: {
+    codify: {
       less: (function () {
         var modules = (grunt.option('modules') || 'base display text embed forms tables').split(' ');
         var files = [];
@@ -24,15 +24,9 @@ module.exports = function (grunt) {
         }
         return files;
       })(),
-      css: 'dist/sanitize.css',
-      cssMin: 'dist/sanitize.min.css'
+      css: 'dist/codify.css',
+      cssMin: 'dist/codify.min.css'
     },
-
-    // Banner
-    banner: '/*!\n' +
-            ' * Sanitize.css <%= pkg.version %> (http://git.io/sanitize)\n' +
-            ' * Licensed under the <%= pkg.license %> License.\n' +
-            ' */\n',
 
     // Tasks
     clean: {
@@ -41,15 +35,22 @@ module.exports = function (grunt) {
 
     less: {
       dist: {
-        src: '<%= sanitize.less %>',
-        dest: '<%= sanitize.css %>'
+        options: {
+          banner: '/*!\n' +
+                  ' * Codify.css <%= pkg.version %> (https://github.com/zdroid/codify.css)\n' +
+                  ' * Licensed under the <%= pkg.license %> License.\n' +
+                  ' */\n'
+        },
+        src: '<%= codify.less %>',
+        dest: '<%= codify.css %>'
       },
       distMin: {
         options: {
-          compress: true
+          compress: true,
+          banner: '/*! Codify.css <%= pkg.version %> | <%= pkg.license %> License | https://github.com/zdroid/codify.css */'
         },
-        src: '<%= sanitize.css %>',
-        dest: '<%= sanitize.cssMin %>'
+        src: '<%= codify.less %>',
+        dest: '<%= codify.cssMin %>'
       }
     },
 
@@ -58,24 +59,15 @@ module.exports = function (grunt) {
         options: {
           config: '.csscomb.json'
         },
-        src: '<%= sanitize.css %>',
-        dest: '<%= sanitize.css %>'
-      }
-    },
-
-    usebanner: {
-      css: {
-        options: {
-          banner: '<%= banner %>'
-        },
-        src: 'dist/*.css'
+        src: '<%= codify.css %>',
+        dest: '<%= codify.css %>'
       }
     },
 
     watch: {
       src: {
-        files: '<%= sanitize.less %>',
-        tasks: ['less', 'csscomb', 'usebanner']
+        files: '<%= codify.less %>',
+        tasks: ['less', 'csscomb']
       }
     }
   });
@@ -85,5 +77,5 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   // Default task
-  grunt.registerTask('default', ['clean', 'less', 'csscomb', 'usebanner']);
+  grunt.registerTask('default', ['clean', 'less', 'csscomb']);
 };

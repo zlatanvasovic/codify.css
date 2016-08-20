@@ -1,19 +1,22 @@
 {
-  "name": "sanitize.css",
-  "version": "2.0.0",
-  "repository": "ZDroid/sanitize.css",
+  "name": "codify.css",
+  "version": "1.0.0",
   "license": "MIT",
+  "repository": "zdroid/codify.css",
   "scripts": {
     "test": "grunt"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-banner": "0.4.x",
-    "grunt-contrib-clean": "0.6.x",
-    "grunt-contrib-less": "1.0.x",
-    "grunt-contrib-watch": "0.6.x",
-    "grunt-csscomb": "3.0.x",
-    "load-grunt-tasks": "3.2.x",
-    "time-grunt": "1.2.x"
-  }
+    "grunt": "1.0.x",
+    "grunt-contrib-clean": "1.0.x",
+    "grunt-contrib-less": "1.4.x",
+    "grunt-contrib-watch": "1.0.x",
+    "grunt-csscomb": "3.1.x",
+    "load-grunt-tasks": "3.5.x",
+    "time-grunt": "1.4.x"
+  },
+  "private": true
 }

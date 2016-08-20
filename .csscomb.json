@@ -86,6 +86,7 @@
       "text-emphasis-style",
       "text-emphasis-position",
       "text-decoration",
+      "-webkit-text-decoration-skip",
       "text-indent",
       "text-justify",
       "text-outline",

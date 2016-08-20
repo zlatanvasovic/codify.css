@@ -2,21 +2,9 @@
 // Embedded content
 //
 
-// Remove the gap between embedded content and the bottom of its container.
-audio,
-canvas,
-embed,
-iframe,
-img,
-object,
-svg,
-video {
-  vertical-align: middle;
-}
-
 // Scale the height according to the width.
 // Set a maximum width relative to the parent.
-// Remove border when inside `a` element in IE 9/10.
+// Remove border when inside `a` element in IE 10.
 img {
   height: auto;
   max-width: 100%;
@@ -26,11 +14,6 @@ img {
 // Correct overflow not hidden in IE.
 svg:not(:root) {
   overflow: hidden;
-}
-
-// Address margin not present in Safari and IE 9.
-figure {
-  margin: 1em 40px;
 }
 
 // Normalize `vertical-align` of `progress` in Chrome, Firefox and Opera.

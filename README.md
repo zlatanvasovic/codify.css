@@ -1,28 +1,31 @@
-# Sanitize.css
+# Codify.css
 
-[![Build Status](https://travis-ci.org/ZDroid/sanitize.css.svg?branch=master)](https://travis-ci.org/ZDroid/sanitize.css)
-[![devDependency Status](https://david-dm.org/ZDroid/sanitize.css/dev-status.svg)](https://david-dm.org/ZDroid/sanitize.css#info=devDependencies)
+[![Build Status](https://travis-ci.org/zdroid/codify.css.svg?branch=master)](https://travis-ci.org/zdroid/codify.css)
+[![devDependency Status](https://david-dm.org/zdroid/codify.css/dev-status.svg)](https://david-dm.org/zdroid/codify.css#info=devDependencies)
 
-> A minimal CSS normalization library
+> A minimal and customizable CSS normalization library
 
+Codify.css is focused on providing needed corrections for modern browsers,
+instead of supporting old, unmaintained and almost unused browsers.
 Based on [Normalize.css](https://github.com/necolas/normalize.css).
 
 ## Download
 
-- [**ZIP package**](https://github.com/ZDroid/sanitize.css/archive/master.zip)
-- **Bower:** `bower install sanitize.css`
+- [**ZIP package**](https://github.com/zdroid/codify.css/archive/master.zip)
+- **Bower:** `bower install codify.css`
 
 ### CDN
 
-- [cdnjs](http://cdnjs.com/libraries/sanitize.css/)
-- [jsDelivr](http://www.jsdelivr.com/#!sanitize.css) (latest at
-`//cdn.jsdelivr.net/sanitize.css/latest/sanitize.min.css`)
+- [cdnjs](http://cdnjs.com/libraries/codify.css/)
+- [jsDelivr](http://www.jsdelivr.com/#!codify.css) (latest at
+`//cdn.jsdelivr.net/codify.css/latest/codify.min.css`)
 
 ## Core changes
 
 (compared to Normalize.css)
 
 - Modules
+- Support for older browsers removed
 - CSSComb support
 - Improved display definitions
 - Consistent element styles
@@ -33,13 +36,14 @@ Based on [Normalize.css](https://github.com/necolas/normalize.css).
 
 - **Chrome** (latest)
 - **Firefox** (latest)
-- **Opera 12+**
-- **Safari 6+**
-- **Internet Explorer 9+**
+- **Opera** (latest)
+- **Edge** (latest)
+- **Safari 7+**
+- **Internet Explorer 10+**
 
 ## Compile
 
-Sanitize.css uses [Grunt](http://gruntjs.com) to compile Less code.
+Codify.css uses [Grunt](http://gruntjs.com) to compile Less code.
 
 ### Dependencies
 
@@ -48,7 +52,7 @@ You need [node.js](http://nodejs.org/download/) to use Grunt.
 From the command line:
 
 1. Install `grunt-cli` globally with `[sudo] npm install -g grunt-cli`.
-2. Run `npm install` from the root Sanitize.css directory to install
+2. Run `npm install` from the root Codify.css directory to install
    dependencies.
 
 When completed, you'll be able to run the various Grunt commands provided from
@@ -80,4 +84,4 @@ Watches Less files and recompiles them when they're changed.
 
 ## License
 
-MIT &copy; [Zlatan Vasović](https://github.com/ZDroid)
+MIT &copy; [Zlatan Vasović](https://github.com/zdroid)
