@@ -1,5 +1,5 @@
 /*!
- * Codify.css gruntfile (http://git.io/sanitize)
+ * Codify.css gruntfile (https://github.com/zdroid/codify.css)
  * Licensed under the MIT License.
  */
 
@@ -17,9 +17,9 @@ module.exports = function (grunt) {
     // Paths
     codify: {
       less: (function () {
-        var modules = (grunt.option('modules') || 'base display text embed forms tables').split(' ');
-        var files = [];
-        for (var i = 0; i < modules.length; i++) {
+        let modules = (grunt.option('modules') || 'base display text embed forms tables').split(' ');
+        let files = [];
+        for (let i = 0; i < modules.length; i++) {
           files.push('src/' + modules[i] + '.less');
         }
         return files;
