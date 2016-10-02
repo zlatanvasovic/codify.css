@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 
-module.exports = function (grunt) {
+module.exports = (grunt) => {
   'use strict';
 
   // Force use of Unix newlines
@@ -16,12 +16,13 @@ module.exports = function (grunt) {
 
     // Paths
     codify: {
-      less: (function () {
-        let modules = (grunt.option('modules') || 'base display text embed forms tables').split(' ');
+      less: (() => {
+        let modules = (grunt.option('modules') ||
+          'base display text embed forms tables').split(' ');
         let files = [];
-        for (let i = 0; i < modules.length; i++) {
-          files.push('src/' + modules[i] + '.less');
-        }
+        modules.forEach((value) => {
+          files.push('src/' + value + '.less');
+        });
         return files;
       })(),
       css: 'dist/codify.css',
