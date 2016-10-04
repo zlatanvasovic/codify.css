@@ -1,11 +1,24 @@
 {
   "name": "codify.css",
+  "author": "Zlatan Vasović",
+  "description": "A minimal and customizable CSS normalization library",
+  "keywords": [
+    "css",
+    "normalize",
+    "normalization"
+  ],
   "version": "1.0.0",
   "license": "MIT",
   "repository": "zdroid/codify.css",
+  "bugs": "https://github.com/zdroid/codify.css/issues",
   "scripts": {
     "test": "grunt"
   },
+  "main": "dist/codify.css",
+  "files": [
+    "dist",
+    "LICENSE.md"
+  ],
   "engines": {
     "node": ">=4"
   },
@@ -17,6 +30,5 @@
     "grunt-csscomb": "3.1.x",
     "load-grunt-tasks": "3.5.x",
     "time-grunt": "1.4.x"
-  },
-  "private": true
+  }
 }

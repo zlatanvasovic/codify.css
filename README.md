@@ -13,6 +13,7 @@ Based on [Normalize.css](https://github.com/necolas/normalize.css).
 
 - [**ZIP package**](https://github.com/zdroid/codify.css/archive/master.zip)
 - **Bower:** `bower install codify.css`
+- **npm**: `npm install codify.css`
 
 ### CDN
 
