@@ -3,9 +3,11 @@
   "author": "Zlatan Vasović",
   "description": "A minimal and customizable CSS normalization library",
   "keywords": [
+    "codify",
     "css",
     "normalize",
-    "normalization"
+    "normalization",
+    "reset"
   ],
   "version": "1.0.0",
   "license": "MIT",
