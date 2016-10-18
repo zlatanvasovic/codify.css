@@ -1,7 +1,7 @@
 # Codify.css
 
-[![Build Status](https://travis-ci.org/zdroid/codify.css.svg?branch=master)](https://travis-ci.org/zdroid/codify.css)
-[![devDependency Status](https://david-dm.org/zdroid/codify.css/dev-status.svg)](https://david-dm.org/zdroid/codify.css#info=devDependencies)
+[![Build status](https://travis-ci.org/zdroid/codify.css.svg?branch=master)](https://travis-ci.org/zdroid/codify.css)
+[![devDependencies status](https://david-dm.org/zdroid/codify.css/dev-status.svg)](https://david-dm.org/zdroid/codify.css?type=dev)
 
 > A minimal and customizable CSS normalization library
 
